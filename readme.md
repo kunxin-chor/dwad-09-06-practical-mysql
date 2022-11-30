@@ -1,16 +1,19 @@
-To start mysql, in the terminal, type in `mysql -u root`
+# Setup
 
-# Create a new database user
-In the MySQL CLI:
-```
-CREATE USER 'ahkow'@'localhost' IDENTIFIED BY 'rotiprata123';
-```
+## Import the Chinook database
+
+If you are not using Gitpod, please make sure MySQL is running on your computer.
 
 ```
-GRANT ALL PRIVILEGES on sakila.* TO 'ahkow'@'localhost' WITH GRANT OPTION;
+mysql -u root < chinook.sql
 ```
-**Note:** Replace *sakila* with the name of the database you want the user to have access to
- 
- ```
-FLUSH PRIVILEGES;
+
+## Setup the .env file
+Rename `.env.bak` to `.env`
+
+## Install dependencies
+In the terminal, type in 
 ```
+yarn install
+```
+This will install all the dependencies.

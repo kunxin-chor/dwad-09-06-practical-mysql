@@ -1,0 +1,27 @@
+{
+  "name": "dwad-09-06-practical-mysql",
+  "version": "1.0.0",
+  "description": "To start mysql, in the terminal, type in `mysql -u root`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunxin-chor/dwad-09-06-practical-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunxin-chor/dwad-09-06-practical-mysql/issues"
+  },
+  "homepage": "https://github.com/kunxin-chor/dwad-09-06-practical-mysql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mysql2": "^2.3.3",
+    "wax-on": "^1.2.2"
+  }
+}
